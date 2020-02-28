@@ -26,6 +26,7 @@ from .commands.run import run
 from .commands.user import user
 from .commands.node import node
 from .commands.pod import pod
+from .commands.git import git
 
 from .login import login_options, cluster_call, cluster_disconnect
 from .format import format_options
@@ -121,6 +122,7 @@ cli.add_command(resource_profile)
 cli.add_command(editor)
 cli.add_command(node)
 cli.add_command(pod)
+cli.add_command(git)
 
 
 def main():
